@@ -1,0 +1,105 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.displayCenter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20rpx; 
+}
+.item4 {
+  width: 25%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  /* background: #1296db; */
+}
+.fontSize1 {
+  padding-top: 20rpx;
+  font-size: 25rpx;
+}
+/* 底部样式 */
+.baseBorder {
+  border-bottom: 20rpx solid #f5f5f5;
+}
+/* 图片样式 */
+.image_style {
+  width: 100%;
+  height: 100%;
+}
+/* 水平排列 */
+.levelFlex {
+  display: flex;
+  flex-direction: row;
+}
+/* 垂直排列 */
+.columnStyle {
+  display: flex;
+  flex-direction: column;
+}
+/* 平局分配 */
+.col-12 {
+  flex: 0 0 100%;
+}
+.col-6 {
+  flex: 0 0 50%;
+}
+.col-4 {
+  flex: 0 0 33.33%;
+}
+.col-3 {
+  flex: 0 0 25%;
+}
+.col-2 {
+  flex: 0 0 20%;
+}
+.col-9 {
+  flex: 0 0 75%;
+}
+.col-10 {
+  flex: 0 0 80%;
+}
+/* 上下对齐 */
+.topBottom {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between;
+}
+/* 两等分 */
+.item2 {
+  width: 50%;
+  padding: 10rpx;
+  height: 200rpx;
+  box-sizing: border-box;
+}
+.learnItem {
+  width: 50%;
+  padding: 10rpx;
+  box-sizing: border-box;
+}
+/* 灰色字体 */
+.grayFont {
+  font-size: 12px;
+  color: #a5a5c4;
+}
+/* 左侧边框 */
+.leftBorder {
+  margin:20rpx 30rpx 0;
+  border-left: 10rpx solid #38adff;
+  line-height: 1;
+  padding-left: 15rpx; 
+  font-size: 18px;
+}

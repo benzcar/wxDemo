@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/static/learn/study/a",
+    "pages/static/learn/study/b"
+  ],
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "tabBar": {
+    "position": "top",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/static/learn/study/a",
+        "text": "在线课程"
+      },
+      {
+        "pagePath": "pages/static/learn/study/b",
+        "text": "我的就业班"
+      }
+    ]
+  },
+  "debug": true
+}

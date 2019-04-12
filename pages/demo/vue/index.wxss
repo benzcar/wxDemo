@@ -1,0 +1,9 @@
+/* pages/vue/index.wxss */
+.page-section-gap{
+  box-sizing: border-box;
+  padding: 30rpx 30rpx;
+}
+
+.page-body-button {
+  margin-bottom: 30rpx;
+}

@@ -1,0 +1,29 @@
+.tab-h{
+    height: 80rpx;
+    width: 100%; 
+    box-sizing: border-box;
+    overflow: hidden;
+    line-height: 80rpx;
+    background: #F7F7F7; 
+    font-size: 16px; 
+    white-space: nowrap;
+  }
+.tab-item{
+  margin:0 36rpx;
+  display: inline-block;
+}
+.tab-item.active{
+  color: #4675F9;
+  position: relative;
+}
+.tab-item.active:after{ 
+  content: "";
+  display: block;
+  height: 8rpx;
+  width: 100%;
+  background: #4675F9;
+  position: absolute; 
+  bottom: 0;
+  left: 5rpx;
+  border-radius: 16rpx;
+}

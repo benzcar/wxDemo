@@ -1,0 +1,18 @@
+<view class="levelFlex content">
+  <view class="col-3 leftItem">
+    <view>Python</view>
+    <view>c++</view>
+    <view>h5</view>
+    <view>java</view>
+    <view>php</view>
+  </view>
+  <view class="col-9">
+    <text class="p1">提升课</text>
+    <view>
+      <button size="mini">全部</button>
+      <button size="mini">基础</button>
+      <button size="mini">性能优化</button>
+      <button size="mini">开源项目</button>
+    </view>
+  </view>
+</view>

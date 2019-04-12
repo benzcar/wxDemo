@@ -1,0 +1,14 @@
+<view >
+  <scroll-view scroll-x="true" class="tab-h" scroll-left="{{scrollLeft}}">
+    <view class="tab-item {{currentTab==0?'active':''}}"  data-current="0" bindtap="swichNav">在线课程</view>
+    <view class="tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="swichNav">我的就业</view>
+    <view class="tab-item {{currentTab==2?'active':''}}" data-current="2" bindtap="swichNav">在线课程</view>
+    <view class="tab-item {{currentTab==3?'active':''}}" data-current="3" bindtap="swichNav">我的就业</view>
+    <view class="tab-item {{currentTab==4?'active':''}}" data-current="4" bindtap="swichNav">在线课程</view>
+    <view class="tab-item {{currentTab==5?'active':''}}" data-current="5" bindtap="swichNav">我的就业</view>
+    <view class="tab-item {{currentTab==6?'active':''}}" data-current="6" bindtap="swichNav">我的就业</view>
+    <view class="tab-item {{currentTab==7?'active':''}}" data-current="7" bindtap="swichNav">在线课程</view>
+  </scroll-view>
+</view>
+<view wx:for="{{aa}}" wx:key="{{id}}">{{aa}}</view>
+<view class="">{{currentTab}}</view>

@@ -1,0 +1,16 @@
+<view class="section">
+  <view>
+    <navigator class="radius" url="/pages/vue/index" hover-class="none">
+      <view class="radius_item">map</view>
+    </navigator>
+    <navigator class="radius" url="/pages/http/index" hover-class="none">
+      <view class="radius_item">canvas</view>
+    </navigator>
+    <navigator class="radius" url="/pages/js/index" hover-class="none">
+      <view class="radius_item">video</view>
+    </navigator>
+    <navigator class="radius" url="/pages/scrollView/index" hover-class="none">
+      <view class="radius_item">move</view>
+    </navigator>
+  </view>
+</view>

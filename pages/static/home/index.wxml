@@ -1,0 +1,125 @@
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-dots="true" indicator-color="#1296db" circular="true">
+  <block wx:for="{{imgUrls}}"  wx:key="{{item}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="displayCenter baseBorder">
+<!-- tabbar 和 navigator 不能共用一个路径 -->
+<!-- tabbar的相应页面时只能用wx.switchTab不能用wx.navigateTo和wx.redirectTo -->
+<!-- 不是tabbar相应页面navigateTo和wx.redirectTo都可以用 -->
+  <navigator class="item4" url="/pages/static/learn/index" hover-class="none">
+    <view class="circle">
+      <image src="https://m.boxuegu.com/web/images/index/course.png" class="image_style"></image>
+    </view>
+    <text class="fontSize1">就业课</text>
+  </navigator>
+  <navigator class="item4" url="/pages/static/sort/index" hover-class="none">
+    <view class="circle">
+      <image src="https://m.boxuegu.com/web/images/index/mircoCourse.png" class="image_style"></image>
+    </view>
+    <text class="fontSize1">提升课</text>
+  </navigator>
+  <navigator class="item4" url="/pages/static/sort/index" hover-class="none">
+    <view class="circle">
+      <image src="https://m.boxuegu.com/web/images/index/freeMicroCourse.png" class="image_style"></image>
+    </view>
+    <text class="fontSize1">免费课</text>
+  </navigator>
+  <navigator class="item4" url="/pages/static/sort/index" hover-class="none">
+    <view class="circle">
+      <image src="https://m.boxuegu.com/web/images/index/courseType.png" class="image_style"></image>
+    </view>
+    <text class="fontSize1">课程分类</text>
+  </navigator>
+</view>
+<!-- 课程 -->
+<view class="columnStyle baseBorder">
+  <view class="leftBorder">就业办</view>
+  <view class="displayCenter">
+    <view class="item2">
+      <image src="https://img2.mukewang.com/5bf7a0db00011ee106000338-590-330.jpg" class="learn_img1"></image>
+    </view>
+    <view class="item2 topBottom">
+      <text>
+        <text class="p1">大数据就业办</text>
+        <text class="p1 grayFont">cto学习班</text>
+      </text>
+      <text class="p2">222人学习</text>
+    </view>
+  </view>
+  <view class="displayCenter">
+    <view class="item2">
+      <image src="https://img2.mukewang.com/5bf7a0db00011ee106000338-590-330.jpg" class="learn_img1"></image>
+    </view>
+    <view class="item2 topBottom">
+      <text>
+        <text class="p1">大数据就业办</text>
+        <text class="p1 grayFont">cto学习班</text>
+      </text>
+      <text class="p2">222人学习</text>
+    </view>
+  </view>
+  <view class="displayCenter">
+    <view class="item2">
+      <image src="https://img2.mukewang.com/5bf7a0db00011ee106000338-590-330.jpg" class="learn_img1"></image>
+    </view>
+    <view class="item2 topBottom">
+      <text>
+        <text class="p1">大数据就业办</text>
+        <text class="p1 grayFont">cto学习班</text>
+      </text>
+      <text class="p2">222人学习</text>
+    </view>
+  </view>
+  <view class="displayCenter">
+    <view class="item2">
+      <image src="https://img2.mukewang.com/5bf7a0db00011ee106000338-590-330.jpg" class="learn_img1"></image>
+    </view>
+    <view class="item2 topBottom">
+      <text>
+        <text class="p1">大数据就业办</text>
+        <text class="p1 grayFont">cto学习班</text>
+      </text>
+      <text class="p2">222人学习</text>
+    </view>
+  </view>
+</view>
+<!-- 课程 -->
+<view>
+  <view class="leftBorder">免费课</view>
+  <view class="displayCenter">
+    <view class="learnItem columnStyle">
+      <image src="//img1.sycdn.imooc.com/szimg/5becd5ad0001b89306000338-360-202.jpg" class="learn_img2"></image>
+      <text class="p1">Java职业规划公开课</text>
+      <text class="p2">222人学习</text>
+    </view> 
+    <view class="learnItem columnStyle">
+      <image src="//img1.sycdn.imooc.com/szimg/5becd5ad0001b89306000338-360-202.jpg" class="learn_img2"></image>
+      <text class="p1">Java职业规划公开课</text>
+      <text class="p2">222人学习</text>
+    </view>
+    <view class="learnItem columnStyle">
+      <image src="//img1.sycdn.imooc.com/szimg/5becd5ad0001b89306000338-360-202.jpg" class="learn_img2"></image>
+      <text class="p1">Java职业规划公开课</text>
+      <text class="p2">222人学习</text>
+    </view> 
+    <view class="learnItem columnStyle">
+      <image src="//img1.sycdn.imooc.com/szimg/5becd5ad0001b89306000338-360-202.jpg" class="learn_img2"></image>
+      <text class="p1">Java职业规划公开课</text>
+      <text class="p2">222人学习</text>
+    </view> 
+    <view class="learnItem columnStyle">
+      <image src="//img1.sycdn.imooc.com/szimg/5becd5ad0001b89306000338-360-202.jpg" class="learn_img2"></image>
+      <text class="p1">Java职业规划公开课</text>
+      <text class="p2">222人学习</text>
+    </view>    
+    <view class="learnItem columnStyle">
+      <image src="//img1.sycdn.imooc.com/szimg/5becd5ad0001b89306000338-360-202.jpg" class="learn_img2"></image>
+      <text class="p1">Java职业规划公开课</text>
+      <text class="p2">222人学习</text>
+    </view> 
+  </view>
+</view>
